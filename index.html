@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google Search Console-->
+
+    <title>半導体プロセス</title>
+
+    <meta name="description" content="高専生の基礎学習をサポート。学習に役立つコンテンツを順次追加していきます。">
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- 標準的なファビコン（16x16 / 32x32など） -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.ico">
+
+    <!-- Apple Touch Icon (iPhoneなど) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+</head>
+
+<body>
+
+    <!-- =========================
+         Header
+    ========================== -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="https://study.kikuchan-code.workers.dev/" class="logo">
+                <p class="logo-subtitle">高専生の基礎学習をサポート</p>
+                <span class="logo-title">Base Study Hub <em class="logo-em">KOSEN</em></span>
+            </a>
+
+            <!-- Hamburger -->
+            <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#works">半導体プロセス</a></li>
+                    <li><a href="https://study.kikuchan-code.workers.dev/">ホームにもどる</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =========================
+         Main
+    ========================== -->
+    <main class="main-content">
+
+        <!-- Works -->
+        <section class="section" id="works">
+            <div class="container">
+
+                <nav class="breadcrumb">
+                    <a href="https://study.kikuchan-code.workers.dev/">ホーム</a> &gt; <span>半導体プロセス</span>
+                </nav>
+
+                <h2 class="section-title">半導体プロセス</h2>
+
+
+
+                <!-- PDF資料一覧 -->
+                <div class="pdf-section">
+                    <h3 class="category-title">半導体プロセスマップ</h3>
+                    <p class="pdf-description">
+                        ブラウザで閲覧したり、端末に保存したりできます。
+                    </p>
+
+                    <div class="pdf-list">
+
+                        <!-- PDF資料 1 -->
+                        <article class="pdf-card">
+                            <div class="pdf-card-header">
+                                <span class="pdf-badge">PDF</span>
+                                <div class="pdf-card-info">
+                                    <h4>半導体プロセスマップ</h4>
+                                    <p>半導体プロセスを1枚にまとめたシートです。</p>
+                                </div>
+                            </div>
+
+                            <div class="pdf-actions">
+                                <a href="./PDF/Semiconductor_Process_Map.pdf" class="pdf-btn pdf-view" target="_blank"
+                                    rel="noopener">
+                                    <span aria-hidden="true">↗</span>
+                                    ブラウザで閲覧
+                                </a>
+
+                                <a href="./PDF/Semiconductor_Process_Map.pdf" class="pdf-btn pdf-download"
+                                    download="半導体プロセスマップ.pdf">
+                                    <span aria-hidden="true">↓</span>
+                                    ダウンロード
+                                </a>
+                            </div>
+
+                            <details class="pdf-preview">
+                                <summary>ページ内でプレビュー</summary>
+                                <div class="pdf-viewer">
+                                    <iframe src="./PDF/Semiconductor_Process_Map.pdf" title="半導体プロセスマップ" loading="lazy"></iframe>
+                                </div>
+                            </details>
+                        </article>
+
+                        <!-- PDF資料を増やす場合は、ここにpdf-cardを追加 -->
+
+                    </div>
+                </div>
+
+
+                <div class="section-content">
+                    <h3 class="category-title">各プロセスの概要</h3>
+                    時間があれば、ときどき書き進める予定です。
+                    <!-- プロセスの種類ごとにclassを変えて色分け予定 -->
+                    <ul class="content-list">
+                        <li><a href="" class="content-link is-test">洗浄</a></li>
+                        <li><a href="" class="content-link is-test">熱酸化（フィールド酸化）</a></li>
+                        <li><a href="" class="content-link is-test">CVD</a></li>
+                        <li><a href="" class="content-link is-test">スパッタ</a></li>
+                        <li><a href="" class="content-link is-test">熱拡散</a></li>
+                        <li><a href="" class="content-link is-test">イオン注入</a></li>
+                        <li><a href="" class="content-link is-test">フォトリソグラフィ</a></li>
+                        <li><a href="" class="content-link is-test">エッチング</a></li>
+                        <li><a href="" class="content-link is-test">アッシング</a></li>
+                        <li><a href="" class="content-link is-test">CMP</a></li>
+                        <li><a href="" class="content-link is-test">アロイ・アニール</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+            </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================
+         To Top Button
+    ========================== -->
+    <button id="toTopBtn" class="to-top-btn" title="上へ戻る">
+        <span aria-hidden="true" class="to-top-icon"></span>
+    </button>
+
+    <!-- =========================
+         Scripts
+    ========================== -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
